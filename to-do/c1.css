@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-container {
+    text-align: center;
+    width: 300px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: grabbing;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
