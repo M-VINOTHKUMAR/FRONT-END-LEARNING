@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+}
+#calc{
+    background-color: rgb(82, 76, 76);
+    height: 10cm;
+    width: 10cm;
+    margin: 5cm;
+    padding: 5px;
+    justify-content:center ;
+
+}
+button{
+    font-size: large;
+    background-color: black;
+    color: yellowgreen;
+    border: yellow;
+    border-radius: 50%;
+    height: 1cm;
+    width: 1cm;
+}
+#buttons{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 5mm;
+   padding: 5px;
+
+}
+input{
+  background-color:burlywood ;
+  color: rgb(12, 12, 12);
+  border: black;
+  width: 100%;
+  text-align: center;
+  font-size: 1cm;
+  height: 1cm;
+ 
+}

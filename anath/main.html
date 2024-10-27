@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <DIV id="calc">
+        <DIV>
+            <input type="text" id="display" >
+        </DIV>
+        <div id="buttons">
+
+            <table>
+                <tr>
+                    <td>
+                        <button id="add" onclick="appendtodisplay('+')" class="key">+</button>
+                    </td>
+                    <td><button id="1" onclick="appendtodisplay('1')" class="key">1</button>
+                    </td>
+                    <td><button id="2" onclick="appendtodisplay('2')" class="key">2</button>
+                    </td>
+                    <td><button id="3"  onclick="appendtodisplay('3')" class="key">3</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="sub"  onclick="appendtodisplay('-')" class="key">-</button>
+                    </td>
+                    <td><button id="4" onclick="appendtodisplay('4')" class="key">4</button>
+                    </td>
+                    <td><button id="5" onclick="appendtodisplay('5')" class="key">5</button>
+                    </td>
+                    <td><button id="6" onclick="appendtodisplay('6')" class="key">6</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="mul" onclick="appendtodisplay('*')" class="key">*</button>
+                    </td>
+                    <td><button id="7" onclick="appendtodisplay('7')" class="key">7</button>
+                    </td>
+                    <td><button id="8" onclick="appendtodisplay('8')" class="key">8</button>
+                    </td>
+                    <td><button id="9" onclick="appendtodisplay('9')" class="key">9</button>
+              z      </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="appendtodisplay('/')" class="key">/</button>
+                    </td>
+                    <td><button onclick="delete('')" class="key">DEl</button>
+                    </td>
+                    <td><button onclick="appendtodisplay('0')" class="key">0</button>
+                    </td>
+                    <td><button onclick="calculator()" class="key">cal</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </DIV>
+    <SCript src="script.js"></SCript>
+</body>
+
+</html>
